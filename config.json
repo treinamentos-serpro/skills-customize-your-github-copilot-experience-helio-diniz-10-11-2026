@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "sqlite-persistence",
+      "title": "Persistência de Dados com SQLite",
+      "description": "Persistência de dados em uma API FastAPI usando SQLite",
+      "path": "assignments/sqlite-persistence",
+      "dueDate": "2026-12-01",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }

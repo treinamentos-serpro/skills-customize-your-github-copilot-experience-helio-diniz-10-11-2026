@@ -13,7 +13,7 @@ if (!assignmentId || !displayName || !filename || !type) {
   process.exit(1);
 }
 
-const repoRoot = path.resolve(__dirname, "../../../");
+const repoRoot = path.resolve(__dirname, "../../../../");
 const configPath = path.join(repoRoot, "config.json");
 const filePath = path.join(repoRoot, "assignments", assignmentId, filename);
 
